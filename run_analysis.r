@@ -35,6 +35,8 @@ tdata <-tdata[, -grep("meanFreq", colnames(tdata))]
 #"cleaning" variables' names 
 names(tdata) <- gsub("[.]+", ".", names(tdata))
 names(tdata) <- gsub("[.]", "_", names(tdata))
+names(tdata) <- gsub("[_]$", "", names(tdata))
+names(tdata) <- gsub("[Bb]ody[Bb]ody", "Body", names(tdata))
 #Converting labels of activities into vector
 tdata[,2]<-gsub("1", "WALKING", tdata[,2])
 tdata[,2]<-gsub("2", "WALKING_UPSTAIRS", tdata[,2])
