@@ -5,7 +5,7 @@ README.md - overall description (your are reading it now)
 run_analysis.R - script with code to manipulate the data
 Codebook.md - description of the variables, the data, and any transformations or work that you performed to clean up the data.
 
-# Explanation how the script works.
+## Explanation how the script works.
 Script starts with creating a derictory if necessary, downloading zipfile, 
 and unzipping it.
 
