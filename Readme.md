@@ -44,7 +44,6 @@ colnames(trainActivity) <- "activity"
 Train <- data.frame(c(subjectTrain, trainActivity, dataTrain))
 ```
 After that data concatenate with labels and finally merge in one data frame using rbind function. 
-
 ```r
 data<-rbind(Test, Train)
 ```
@@ -55,12 +54,16 @@ tdata <- data.frame(c(data[,1:2], data[,grep("mean()|std()", names(data),
                                              value=TRUE)]))
 tdata <-tdata[, -grep("meanFreq", colnames(tdata))]
 ```
-The next step is to cleaning the variables names (removing extra dots) 
+The next step is to cleaning the variables names (replacing dots with underscores,
+excluding douple names) 
 and renaming numbered activities by their descriptive names (walking, sitting etc) 
 to create a tidy data.
 
 ```r
 names(tdata) <- gsub("[.]+", ".", names(tdata))
+names(tdata) <- gsub("[.]", "_", names(tdata))
+names(tdata) <- gsub("[_]$", "", names(tdata))
+names(tdata) <- gsub("[Bb]ody[Bb]ody", "Body", names(tdata))
 tdata[,2]<-gsub("1", "WALKING", tdata[,2])
 tdata[,2]<-gsub("2", "WALKING_UPSTAIRS", tdata[,2])
 tdata[,2]<-gsub("3", "WALKING_DOWNSTAIRS", tdata[,2])
