@@ -55,59 +55,59 @@ Position | Code | Variable description |
 12|	tGravityAcc_std_X| average of standard deviations for data received from accelerometer for gravity signals, axis - X
 13|	tGravityAcc_std_Y| average of standard deviations for data received from accelerometer for gravity signals, axis - Y
 14|	tGravityAcc_std_Z| average of standard deviations for data received from accelerometer for gravity signals, axis - Z
-15|	tBodyAccJerk_mean_X|
-16|	tBodyAccJerk_mean_Y|
-17|	tBodyAccJerk_mean_Z|
-18|	tBodyAccJerk_std_X|
-19|	tBodyAccJerk_std_Y|
-20|	tBodyAccJerk_std_Z|
+15|	tBodyAccJerk_mean_X|average of means for data received from accelerometer for body Jerk signals, axis - X
+16|	tBodyAccJerk_mean_Y|average of means for data received from accelerometer for body Jerk signals, axis - Y
+17|	tBodyAccJerk_mean_Z|average of means for data received from accelerometer for body Jerk signals, axis - Z
+18|	tBodyAccJerk_std_X|average of standard deviations for data received from accelerometer for body Jerk signals, axis - X
+19|	tBodyAccJerk_std_Y|average of standard deviations for data received from accelerometer for body Jerk signals, axis - Y
+20|	tBodyAccJerk_std_Z|average of standard deviations for data received from accelerometer for body Jerk signals, axis - Z
 21|	tBodyGyro_mean_X|average of means for data received from gyroscope for body only signals, axis - X
 22|	tBodyGyro_mean_Y| average of means for data received from gyroscope for body only signals, axis - Y
 23|	tBodyGyro_mean_Z|average of means for data received from gyroscope for body only signals, axis - Z
 24|	tBodyGyro_std_X| average of standard deviation for data received from gyroscope for body only signals, axis - X
 25|	tBodyGyro_std_Y|average of standard deviation for data received from gyroscope for body only signals, axis - Y
 26|	tBodyGyro_std_Z|average of standard deviation for data received from gyroscope for body only signals, axis - Z
-27|	tBodyGyroJerk_mean_X|
-28|	tBodyGyroJerk_mean_Y|
-29|	tBodyGyroJerk_mean_Z|
-30|	tBodyGyroJerk_std_X|
-31|	tBodyGyroJerk_std_Y|
-32|	tBodyGyroJerk_std_Z|
+27|	tBodyGyroJerk_mean_X|average of means for data received from gyroscope, Jerk signals, axis - X
+28|	tBodyGyroJerk_mean_Y|average of means for data received from gyroscope, Jerk signals, axis - Y
+29|	tBodyGyroJerk_mean_Z|average of means for data received from gyroscope, Jerk signals, axis - Z
+30|	tBodyGyroJerk_std_X|average of standard deviations for data received from gyroscope, Jerk signals, axis - X
+31|	tBodyGyroJerk_std_Y|average of standard deviations for data received from gyroscope, Jerk signals, axis - Y
+32|	tBodyGyroJerk_std_Z|average of standard deviations for data received from gyroscope, Jerk signals, axis - Z
 33|	tBodyAccMag_mean| average of the means magnitude for data for data received from accelerometer for body only signals
 34|	tBodyAccMag_std | average of the standard deviations of magnitude for data for data received from accelerometer for body only signals
 35|	tGravityAccMag_mean| average of the means magnitude for data for data received from accelerometer for gravity signals
-36|	tGravityAccMag_std| average of the the standard deviations magnitude for data for data received from accelerometer for gravity signals
-37|	tBodyAccJerkMag_mean| 
-38|	tBodyAccJerkMag_std
+36|	tGravityAccMag_std| average of the standard deviations magnitude for data for data received from accelerometer for gravity signals
+37|	tBodyAccJerkMag_mean|average of the means magnitude for data for data received from accelerometer for gravity Jerk signals
+38|	tBodyAccJerkMag_std| average of the the standard deviations magnitude for data for data received from accelerometer for gravity Jerk signals
 39|	tBodyGyroMag_mean|average of the means magnitude for data for data received from gyroscope for body only signals
 40|	tBodyGyroMag_std| average of the standard deviations magnitude for data for data received from gyroscope for body only signals
-41|	tBodyGyroJerkMag_mean|
-42|	tBodyGyroJerkMag_std|
+41|	tBodyGyroJerkMag_mean|average of the means magnitude for data for data received from gyroscope, body Jerk signals
+42|	tBodyGyroJerkMag_std|average of the standard deviations magnitude for data for data received from gyroscope, body Jerk signals
 43|	fBodyAcc_mean_X| average of means of frequencies for data received from accelerometer for body only signals, axis - X
 44|	fBodyAcc_mean_Y| average of means of frequencies for data received from accelerometer for body only signals, axis - Y
 45|	fBodyAcc_mean_Z| average of means of frequencies for data received from accelerometer for body only signals, axis - Z
 46|	fBodyAcc_std_X|average of standard deviations of frequencies for data received from accelerometer for body only signals, axis - X
 47|	fBodyAcc_std_Y| average of standard deviations of frequencies for data received from accelerometer for body only signals, axis - Y
 48|	fBodyAcc_std_Z| average of standard deviations of frequencies for data received from accelerometer for body only signals, axis - Z
-49|	fBodyAccJerk_mean_X|
-50|	fBodyAccJerk_mean_Y|
-51|	fBodyAccJerk_mean_Z|
-52|	fBodyAccJerk_std_X|
-53|	fBodyAccJerk_std_Y|
-54|	fBodyAccJerk_std_Z|
-55|	fBodyGyro_mean_X|
-56|	"fBodyGyro_mean_Y"
-"57"	"fBodyGyro_mean_Z"
-"58"	"fBodyGyro_std_X"
-"59"	"fBodyGyro_std_Y"
-"60"	"fBodyGyro_std_Z"
-"61"	"fBodyAccMag_mean"
-"62"	"fBodyAccMag_std"
-"63"	"fBodyAccJerkMag_mean"
-"64"	"fBodyAccJerkMag_std"
-"65"	"fBodyGyroMag_mean"
-"66"	"fBodyGyroMag_std"
-"67"	"fBodyGyroJerkMag_mean"
-"68"	"fBodyGyroJerkMag_std"
+49|	fBodyAccJerk_mean_X|average of means of frequencies for data received from accelerometer for body Jerk signals, axis - X
+50|	fBodyAccJerk_mean_Y|average of means of frequencies for data received from accelerometer for body Jerk signals, axis - Y
+51|	fBodyAccJerk_mean_Z|average of means of frequencies for data received from accelerometer for body Jerk signals, axis - Z
+52|	fBodyAccJerk_std_X|average of standard deviations of frequencies for data received from accelerometer for body Jerk signals, axis - X
+53|	fBodyAccJerk_std_Y|average of standard deviations of frequencies for data received from accelerometer for body Jerk signals, axis - Y
+54|	fBodyAccJerk_std_Z|average of standard deviations of frequencies for data received from accelerometer for body Jerk signals, axis - Z
+55|	fBodyGyro_mean_X|average of means of frequencies for data received from gyroscope, axis - Z
+56|	fBodyGyro_mean_Y|average of means of frequencies for data received from gyroscope, axis - Y
+57|	fBodyGyro_mean_Z|average of means of frequencies for data received from gyroscope, axis - Z
+58|	fBodyGyro_std_X|average of standard deviations of frequencies for data received from gyroscope, axis - X
+59|	fBodyGyro_std_Y|average of standard deviations of frequencies for data received from gyroscope, axis - Y
+60|	fBodyGyro_std_Z|average of standard deviations of frequencies for data received from gyroscope, axis - Z
+61|	fBodyAccMag_mean|average of means of magnitude for data received from accelerometer
+62|	fBodyAccMag_std|average of means of magnitude for data received from accelerometer
+63|     fBodyAccJerkMag_mean|average of means of magnitude for data received from accelerometer, Jerk signals
+64|	fBodyAccJerkMag_std|average of standard deviations of magnitude for data received from accelerometer, Jerk signals
+65|	fBodyGyroMag_mean|average of means of magnitude of body signals for data received from gyroscope
+66|	fBodyGyroMag_std|average of standard deviations of magnitude of body signals for data received from gyroscope
+67|	fBodyGyroJerkMag_mean|average of means of magnitude of body jerk signals for data received from gyroscope
+68|	fBodyGyroJerkMag_std|average of standard deviation of magnitude of body jerk signals for data received from gyroscope
 
         
